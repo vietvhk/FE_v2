@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tiro+Devanagari+Hindi&display=swap');
+
+$white:#fff;
+$text:#1C1C53;
+$placeHolder:#98A5AF;
+$red-warning:#FF706E;
+$blue:#0975EA;
+
+body{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    width: 100%;
+}
+
+.bg-login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.login-page{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+    .login-page-body{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 55px;
+    }
+}
+.logo-footer{
+    img{
+        max-width: 300px;
+        width: 100%;
+    }
+}
+.footer-desktop{
+    max-width: 840px;
+    margin: auto;
+    display: block;
+    .row{
+        align-items: center;
+    }
+}
+.txt-footer{
+    text-align: center;
+    p{
+        font-family: 'Inter', sans-serif;
+        margin-bottom:5px;
+        display: inline-block;
+        width: 100%;
+        a{
+            color: white;
+            display: inline-block;
+            width: 100%;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        &:hover{
+            text-decoration: underline;
+        }
+        }
+    }
+    p, span{
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+    }
+    p{
+        font-weight: 500;
+    }
+    span{
+        font-style: italic;
+    }
+}
+.login-page__content__footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 30px 0;
+}
+.login-page__content{
+    max-width: 840px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    &__form{
+        display: block;
+        max-width: 600px;
+        width: 100%;
+        background: white;
+        margin: auto;
+        padding-bottom: 57px;
+        img{
+            width: 100%;
+            display: inline-block;
+            
+            &.logo{
+                width: 208px;
+                display: block;
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
+        b{
+            text-transform: uppercase;
+            font-size: 14px;
+            color: $text;
+            display: inline-block;
+            font-weight: normal;
+            width: 100%;
+            text-align: center;
+            letter-spacing: 1.7px;
+        }
+        h1{
+            text-transform: uppercase;
+            font-size: 20px;
+            color: $text;
+            margin-top: 30px;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+            letter-spacing: 1.7px;
+        }
+        form{
+            max-width: 300px;
+            display: block;
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+.btn-submit-form{
+    height: 40px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: linear-gradient(180deg, #0970E9 0%, #0685EB 100%);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.box-filed{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    input{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        padding: 0 10px;
+        border: 1px solid $blue;
+        font-size: 15px;
+        &::placeholder{
+            color: $placeHolder;
+        }
+    }
+}
+label{
+    margin: 10px 0;
+    &.error{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: $red-warning;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .login-page__content__form {
+        max-width: 360px;
+        padding-bottom: 25px;
+    }
+    .login-page__content__form img.logo {
+        width: 158px;
+        display: block;
+        margin: auto;
+        margin-top: 24px;
+    }
+    .login-page__content__form h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .login-page .login-page-body {
+        margin-top: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .login-page__content__form {
+        padding-bottom: 57px;
+    }
+    .footer-desktop{
+        max-width: 100%;
+        .col-md-6{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+            .logo-footer{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .login-page__content{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-footer img {
+        max-width: 207px;
+    }
+    .login-page__content, .login-page__content__form{
+        max-width: 100%;
+    }
+    .login-page .login-page-body {
+        margin-top: 0;
+    }
+    .txt-footer span{
+        font-size: 12px;
+    }
+    .txt-footer p a {
+        &:nth-child(1){
+            font-size: 14px;
+        }
+        &:nth-child(2){
+            font-size: 12px;
+        }
+    }
+}

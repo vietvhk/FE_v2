@@ -1,0 +1,535 @@
+@media only screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* .section-intro {
+        background-image: url('../images/Background_mobile\ 1.png');
+        background-size: contain;
+    } */
+
+    .section-intro img {
+        width: 75%;
+        margin: auto;
+    }
+    img.img-boat{
+        width: 100%;
+    }
+    .section-marsh,
+    .bg-blue-shadow,
+    .legistation,
+    .bg-blue,
+    .formulaire,
+    #cookieModal .modal-content {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .section-marsh img {
+        max-width: 246px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .section-marsh,
+    .section-contact {
+        flex-direction: column;
+    }
+
+    .section-marsh {
+        margin-top: unset;
+    }
+
+    .two-column-image {
+        display: grid;
+    }
+
+    .two-column-image .column-img {
+        order: 1;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+
+    .two-column-image .column-text {
+        order: 2;
+    }
+
+    .banner-intro {
+        display: none;
+    }
+
+    .banner-intro-mobile {
+        display: block;
+        text-align: center;
+    }
+
+    .main h2,h2 {
+        margin-bottom: 40px;
+    }
+
+    .btn-action {
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .formulaire {
+        max-width: 100%;
+        margin-bottom: 50px;
+        height: 500px;
+        padding: 0 62px;
+        width: 100%;
+    }
+    .owl-carousel-slide {
+        margin: 20px 0;
+        padding: 0!important;
+    }
+    .owl-carousel-slide .bg-blue-shadow {
+        min-width: 100vw;
+    }
+    .owl-carousel-slide::before,.owl-carousel-slide::after{
+        display: none;
+    }
+    .owl-carousel-slide .slick-list{
+        padding-right: 110px!important;
+    }
+    .bg-blue-shadow {
+        padding: 20px;
+    }
+
+    .img-leviia {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .img-leviia img {
+        width: 112px;
+    }
+
+    .container.two-column-image.bg-blue-shadow {
+        padding: 0;
+        background: unset;
+    }
+
+    .container.two-column-image.bg-blue-shadow .column-text {
+        background: #2F2F79;
+        padding: 20px;
+    }
+
+    .bg-blue,
+    .legistation {
+        padding: 20px;
+    }
+
+    .logo-mobile {
+        display: block;
+    }
+
+    .logo-pc {
+        display: none;
+    }
+
+    .formulaire h3 {
+        margin: 20px;
+    }
+    .form-contact{max-width: 100%;}
+    .form-contact .form-action {
+        display: grid;
+        text-align: -webkit-center;
+        row-gap: 15px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .btn.btn-action.m-2 {
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    #cookieModal .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #cookieModal .modal-content {
+        min-height: 100vh;
+    }
+
+    #cookieModal .modal-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #cookieModal .modal-body .title-cookie {
+        margin-top: 5vh;
+    }
+
+    header.mobile {
+        padding: 10px 0;
+    }
+
+    header .logo .title-logo {
+        margin: 0;
+    }
+
+    .menu-bars {
+        padding-top: 0;
+    }
+
+    .two-column {
+        display: block;
+    }
+
+    .two-column .image img {
+        width: 100%;
+    }
+
+    .max-width-350,
+    .max-width-600 {
+        max-width: 100%;
+    }
+
+    .page-detail .container,
+    .page-detail .container:has(.bg-blue) .text {
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+
+    .page-detail .container:has(.bg-blue) {
+        padding: 0;
+    }
+
+    .page-detail .container .section-marsh {
+        margin: 0 -20px;
+    }
+
+    .page-detail h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .txt-footer,
+    .txt-footer p a {
+        font-size: 12px;
+    }
+
+    .section-title-page {
+        margin-bottom: 0;
+    }
+
+    .section-title-page p {
+        margin-bottom: 0;
+    }
+
+    .page-detail .container.section-title-page {
+        padding: 0;
+    }
+
+    .mobile-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .two-column-image .operator {
+        justify-content: space-evenly;
+    }
+
+    .owl-carousel-slide .operator {
+        justify-content: space-around;
+    }
+
+    .section-functioning {
+        margin: 0 -20px;
+    }
+
+    .section-functioning .title-funtioning,
+    .section-functioning .layout-text-2 {
+        position: unset;
+        float: unset;
+        width: 100%;
+        margin: 0;
+    }
+
+    .section-functioning .title-funtioning h2.title-paragraph {
+        text-align: left;
+    }
+
+    .section-functioning img {
+        width: 100%;
+    }
+
+    .container:has(.section-functioning) .text {
+        width: 100%;
+    }
+
+    .section-functioning .paragraph p {
+        width: 100%;
+        min-width: unset;
+    }
+
+    h2.title-paragraph {
+        font-size: 18px;
+    }
+
+    .layout-operator {
+        display: block;
+    }
+
+    .layout-operator .operator-number {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .layout-operator .operator-number p {
+        line-height: normal;
+    }
+
+    .layout-operator .operator-content {
+        padding-bottom: 10px;
+    }
+
+    .section-timeline .timeline-item {
+        display: grid;
+    }
+
+    .section-timeline .timeline-item .content-left:has(.title-line-left),
+    .section-timeline .timeline-item .content-right:has(.title-line-left) {
+        order: 2;
+    }
+
+    .section-timeline .timeline-item .content-right,
+    .section-timeline .timeline-item .content-left:has(.bg-blue-shadow) {
+        order: 1;
+    }
+
+    .section-timeline .content-left,
+    .section-timeline .content-right {
+        width: 98%;
+    }
+
+    .section-timeline .timeline-item .content-right {
+        margin-left: 0;
+    }
+
+    .section-timeline .timeline-item .content-left:has(.bg-blue-shadow) {
+        padding: 0;
+    }
+
+    .section-timeline .timeline-item .content-left:has(.bg-blue-shadow)::before,
+    .section-timeline .timeline-item .content-right.bg-blue-shadow::before {
+        display: none;
+    }
+
+    .section-timeline .timeline-item .content-left .title-line-left p,
+    .section-timeline .timeline-item .content-left .title-line-left ul {
+        padding-right: 10px;
+    }
+
+    .section-timeline .timeline-item .content-left .title-line-left .title-paragraph::after {
+        margin-top: -42px;
+        margin-right: -6px;
+    }
+
+    .section-timeline .timeline-item .content-right:has(.title-line-left) {
+        padding-top: 20px;
+    }
+
+    .section-timeline .mt-50 {
+        margin-top: 20px;
+    }
+
+    .section-timeline .timeline-item .content-right .title-line-left h2 {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .section-timeline .timeline-item .content-left:has(.title-line-left) {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        /* width: 90%; */
+    }
+
+    .section-timeline .timeline-item .content-right.bg-blue-shadow {
+        border-right: 0;
+        margin-left: -20px;
+        width: 100vw;
+        /* margin-right: 30px; */
+    }
+
+    /* .legistation-page.section-timeline .timeline-item .content-right.bg-blue-shadow{
+        margin-right: 65px;
+    }
+    .legistation-page.section-timeline .timeline-item .content-right.bg-blue-shadow.m-mobile-180{
+        margin-right: 180px;
+    }
+    .legistation-page.section-timeline .timeline-item .content-right.bg-blue-shadow.m-mobile-72{
+        margin-right: 72px;
+    } */
+    .section-timeline .timeline-item .content-left:has(.bg-blue-shadow) {
+        border: 0;
+        margin-left: -20px;
+    }
+
+    /* .section-timeline .timeline-item .content-left:has(.bg-blue-shadow) .bg-blue-shadow{
+        margin-right: -40px;
+    } */
+    .section-timeline .content-left .title-line-left {
+        width: 100%;
+    }
+
+    .section-timeline .timeline-item .content-right:has(.title-line-left) {
+        border-right: 3px solid #F5E48C;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 97%;
+    }
+
+    .section-timeline .timeline-item .content-right:has(.title-line-left)::before {
+        content: '';
+        background: #F5E48C;
+        position: relative;
+        float: right;
+        width: 10px;
+        height: 10px;
+        margin-top: -20px;
+        margin-right: -6px;
+        border-radius: 15px;
+    }
+
+    .section-timeline .timeline-item .content-right .title-line-left h2 {
+        width: unset;
+    }
+
+    .section-timeline .timeline-item .bg-blue-shadow {
+        width: 100vw;
+    }
+
+    .section-timeline .timeline-item .bg-blue-shadow h2 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Add dot */
+    .section-timeline .timeline-item:first-child .content-left:has(.title-line-left)::before,
+    .section-timeline .timeline-item:last-child .content-left:has(.bg-blue-shadow):after,
+    /* .section-timeline .timeline-item:first-child .content-right:has(.title-line-left)::before, */
+    .section-timeline .timeline-item:last-child .content-right.bg-blue-shadow::after {
+        display: none;
+    }
+
+    .section-timeline .timeline-item:first-child .content-right:has(.title-line-left)::before {
+        margin-left: 0;
+        margin-top: -30px;
+        float: right;
+    }
+
+    /*  */
+    .container .listing-grid.three-column>div {
+        width: 110%;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .content-error h1 {
+        margin-top: 20px;
+    }
+
+    .content-error img {
+        width: 100%;
+    }
+
+    .page-maintenance {
+        padding: 0;
+        display: flex;
+        align-content: stretch;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .page-maintenance .logo p {
+        font-size: 18px;
+    }
+
+    .page-maintenance .logo img {
+        height: auto;
+    }
+
+    .section-timeline .operator {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .section-timeline a {
+        overflow-wrap: break-word;
+    }
+
+    .logo-footer img {
+        /* max-width: 292px; */
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .txt-footer p {
+        margin-bottom: 20px;
+    }
+
+    .login-page__content__footer {
+        padding-bottom: 0;
+    }
+
+    #header-mobile .col-10 {
+        padding-left: 10px;
+    }
+    .owl-carousel-slide .operator .operator-title{
+        width: auto;
+    }
+    img.logo-produit{
+        width: 110px;
+        margin: auto;
+    }
+    .body-content{
+        padding-right: 15px;
+    padding-left: 15px;
+    }
+    .button-footer-admin a{
+        height: 50px;
+        padding: 0 19px;
+        font-size: 14px;
+    }
+}
+
+/* @media only screen and (max-width: 390px) {
+    .section-intro {
+        /* background-image: url('../images/Background_mobile\ 1.png'); 
+        background-image: url('../images/Background FO_svg/Background FO_390.svg');
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .section-intro {
+        /* background-image: url('../images/Bg-768px.png'); 
+        background-image: url('../images/Background FO_svg/Background\ FO_768.svg');
+    }
+}
+@media only screen and (min-width: 769px) {
+    .section-intro{
+        /* background-image: url('../images/Bg-1024px.png'); 
+        background-image: url('../images/Background FO_svg/Background\ FO_1280.svg');
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .section-intro {
+        /* background-image: url('../images/Background-PC-1.png'); 
+        background-image: url('../images/Background FO_svg/Background\ FO_1920.svg');
+    }
+} */
+
+/* @media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1921px) {
+    .section-intro {
+        /* background-image: url('../images/Bg-1920px.png'); */
+        /* background-image: url('../images/Background FO_svg/Background\ FO_2560.svg'); */
+        /* background-position: center bottom; */
+
